@@ -29,10 +29,10 @@ Author: Zhaoyi Zhuang
   - Player can pick up and shoot in GUI.
   - GUI will send feedback to users after each action has been conducted.
 ##How to Run: <br>
-  - Using "java -jar Project5.jar 6 6 6 60 6 T" to run the text-based game.
+  - Using "java -jar AdventureGame.jar 6 6 6 60 6 T" to run the text-based game.
   - The command line "6 6 6 60 6 T" represents row, column, interconnectivity, possibility of treasure/arrow, number of monsters, and is the Dungeon wrapping? T for True, F for False
   - You can customize the command line as long as row and col are > 5, interconnectivity and possibility is >= 0 and number of monster >= 1.
-  - Using "java -jar Project5.jar" to run the Graphical game.
+  - Using "java -jar AdventureGame.jar" to run the Graphical game.
   - The game starts with the default setting of "6 6 0 50 1 F"
 ##How to Use the Program: <br>
   - For text-based Game:
@@ -60,7 +60,6 @@ Author: Zhaoyi Zhuang
 
 Above images are the sample screenshot from the game. I go through the game, move, shoot, pick up treasures, weapons. Meet dead monster, escape successfully, lose and win. 
 ##Design/Model Changes: <br>
-  - The original version is the design I have for the Project4, a text-based game.
   - Changes I made:
     - Add a View Package which represents the GUI view part of the MVC design pattern.
     - Add a Features interface which extends the DungeonController interface and represents the features and interactions that the game will have in the GUI.
