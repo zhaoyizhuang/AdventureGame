@@ -31,6 +31,7 @@ Author: Zhaoyi Zhuang
 
 
 ## How to Run: <br>
+  - Download the AdventureGame.jar and using command line to start the game.
   - Using "java -jar AdventureGame.jar 6 6 6 60 6 T" to run the text-based game.
   - The command line "6 6 6 60 6 T" represents row, column, interconnectivity, possibility of treasure/arrow, number of monsters, and is the Dungeon wrapping? T for True, F for False
   - You can customize the command line as long as row and col are > 5, interconnectivity and possibility is >= 0 and number of monster >= 1.
