@@ -1,8 +1,8 @@
-Graphical Adventure Game <br>
-Author: Zhaoyi Zhuang <br>
-About/Overview: <br>
+# Graphical Adventure Game
+Author: Zhaoyi Zhuang 
+## About/Overview: <br>
   This is an Adventure Game which support both text-based mode and Graphical mode. User will control a player to explore and escape from a dungeon. The player can move from one place to another, shoot arrows, pick up weapons and treasures. There are Monsters live in some randomly picked caves. They can eat the player who enters those caves without any preparation. This program uses the Object-Oriented Programming and MVC design. <br><br>
-List of features: <br>
+## List of features: <br>
   - The dungeon is represented on a 2-d grid.
   - There are wrapping and non-wrapping dungeons where a wrapping dungeon means when a player is at the edge of the dungeon, the player can go cross the edge to the another side of the dungeon.
   - There is a path from every cave in the dungeon to every other cave in the dungeon.
@@ -30,7 +30,7 @@ List of features: <br>
   - GUI will send feedback to users after each action has been conducted. <br><br>
 
 
-How to Run: <br>
+## How to Run: <br>
   - Using "java -jar AdventureGame.jar 6 6 6 60 6 T" to run the text-based game.
   - The command line "6 6 6 60 6 T" represents row, column, interconnectivity, possibility of treasure/arrow, number of monsters, and is the Dungeon wrapping? T for True, F for False
   - You can customize the command line as long as row and col are > 5, interconnectivity and possibility is >= 0 and number of monster >= 1.
@@ -38,7 +38,7 @@ How to Run: <br>
   - The game starts with the default setting of "6 6 0 50 1 F" <br><br>
 
 
-How to Use the Program: <br>
+## How to Use the Program: <br>
   - For text-based Game:
     - Run the jar file with specified command line.
     - Follow the instruction on the console.
@@ -61,12 +61,12 @@ How to Use the Program: <br>
     - To see current dungeon's properties, click Menu -> Current Settings <br><br>
 
 
-Description of Examples: <br>
+## Description of Examples: <br>
 ![](sample_screenshot.jpg)
 
 Above images are the sample screenshot from the game. I go through the game, move, shoot, pick up treasures, weapons. Meet dead monster, escape successfully, lose and win. <br><br>
 
-Design/Model Changes: <br>
+## Design/Model Changes: <br>
   - Changes I made:
     - Add a View Package which represents the GUI view part of the MVC design pattern.
     - Add a Features interface which extends the DungeonController interface and represents the features and interactions that the game will have in the GUI.
@@ -78,7 +78,7 @@ Design/Model Changes: <br>
     - Delete generate() from Controller interface. <br><br>
 
 
-Assumptions: <br>
+## Assumptions: <br>
   - When interconnectivity is bigger than the most possible paths. The dungeon will have all paths connected.
   - When the possibility goes beyond 100%, simply every non-tunnel caves have treasure and every place will have arrows.
   - If there is a health Monster in the end cave and player reaches the end cave, player loses.
@@ -97,7 +97,7 @@ Assumptions: <br>
   - The graphical game will start with a default 6*6 Non-Wrapping dungeon with 0 interconnectivity, 50% treasures and weapons and 1 monster. <br><br>
 
 
-Limitations: <br>
+## Limitations: <br>
   - Not allow Dungeon less than 6*6 size.
   - Player cannot continue exploring the dungeon after winning.
   - Only three kinds of treasures and one kind of weapon.
