@@ -5,11 +5,11 @@ Author: Zhaoyi Zhuang
   
 ## How to Run: <br>
   - Download the [AdventureGame.jar](AdventureGame.jar) and using command line to start the game.
+  - Using "java -jar AdventureGame.jar" to run the Graphical game. (You need to scroll the screen to locate the character first.)
+  - The game starts with a default 6 * 6 unwrapping dungeon with 0 interconnectivity, 50% possibility of treasure/arrow and 1 monster at the end cave.
   - Using "java -jar AdventureGame.jar 6 6 6 60 6 T" to run the text-based game.
   - The command line "6 6 6 60 6 T" represents row, column, interconnectivity, possibility of treasure/arrow, number of monsters, and is the Dungeon wrapping? T for True, F for False
-  - You can customize the command line as long as row and col are > 5, interconnectivity and possibility is >= 0 and number of monster >= 1.
-  - Using "java -jar AdventureGame.jar" to run the Graphical game.
-  - The game starts with the default setting of "6 6 0 50 1 F" <br><br>
+  - You can customize the command line as long as row and col are > 5, interconnectivity and possibility is >= 0 and number of monster >= 1. <br><br>
 
 
 ## List of features: <br>
