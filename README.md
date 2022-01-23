@@ -4,7 +4,7 @@ Author: Zhaoyi Zhuang
   This is an Adventure Game which support both text-based mode and Graphical mode. User will control a player to explore and escape from a dungeon. The player can move from one place to another, shoot arrows, pick up weapons and treasures. There are Monsters live in some randomly picked caves. They can eat the player who enters those caves without any preparation. This program uses the Object-Oriented Programming and MVC design. <br><br>
   
 ## How to Run: <br>
-  - Download the AdventureGame.jar file and using command line to start the game.
+  - Download the [AdventureGame.jar](AdventureGame.jar) and using command line to start the game.
   - Using "java -jar AdventureGame.jar 6 6 6 60 6 T" to run the text-based game.
   - The command line "6 6 6 60 6 T" represents row, column, interconnectivity, possibility of treasure/arrow, number of monsters, and is the Dungeon wrapping? T for True, F for False
   - You can customize the command line as long as row and col are > 5, interconnectivity and possibility is >= 0 and number of monster >= 1.
